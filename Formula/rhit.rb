@@ -15,8 +15,6 @@ class Rhit < Formula
 
   depends_on "rust" => :build
 
-  uses_from_macos "libiconv"
-
   resource "testdata" do
     url "https://raw.githubusercontent.com/Canop/rhit/c78d63b/test-data/access.log"
     sha256 "e9ec07d6c7267ec326aa3f28a02a8140215c2c769ac2fe51b6294152644165eb"
